@@ -26,7 +26,9 @@ class _BottomNavState extends State<BottomNav> {
         selectedItemColor: Colors.orange,
         currentIndex: _currentIndex,
         items: [
-          _buildBottomNavigationBarItem(Icon(Icons.home), 'home'),
+          _buildBottomNavigationBarItem(Icon(Icons.home), 'Home'),
+          _buildBottomNavigationBarItem(Icon(Icons.category), 'Categories'),
+          _buildBottomNavigationBarItem(Icon(Icons.shopping_cart), 'Cart'),
           _buildBottomNavigationBarItem(Icon(Icons.person), 'Account')
         ],
       ),
